@@ -1,0 +1,45 @@
+prizmer
+
+1 to many
+many to many
+many to 1
+
+working on backend 
+set up environment
+MODELS //for products and categories{
+"we make use of schemas to create models"
+require mongoose
+create schema
+const productSchema = new mongoose.Schema({
+    name{string}//required true,
+    price{number} req T,
+    descripton {string} req T,
+    featured{boolean} default F,
+    topselling {boolean} default F,
+    images[{img:{type:string, required:true}}]
+})
+}
+
+
+CONTROLLERS
+
+
+routers
+server.js
+configurations
+//extra
+middle ware
+
+
+{
+    "email": "divine@gmail.com",
+    "password": "divine@2024"
+}
+
+adding item to cart
+{
+    "productId": "66bca302f6bde551262f970f",
+    "quantity": 3
+}
+
+http://localhost:8000/api/payment/verify
